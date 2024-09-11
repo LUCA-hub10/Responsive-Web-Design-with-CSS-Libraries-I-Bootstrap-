@@ -1,0 +1,113 @@
+.products
+
+{
+display: flex;justify-content: space-around;
+   
+}
+
+.card-title
+{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+justify-content: center; 
+
+}
+
+.card-text
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+
+}
+
+
+
+
+  .navbar .form-control {
+
+    border-color: black;
+  }
+
+  .navbar .form-control:hover 
+  
+  {
+    border-color: black;
+
+  }
+
+
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+  .card {
+    margin: 10px;
+  }
+  
+  /* Media queries */
+  @media (min-width: 576px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      width: calc(25% - 20px);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card {
+      width: calc(20% - 20px);
+    }
+  }
+
+
+p .card-text {
+
+  font-size: 20px;
+}
+
+a.btn.btn-primary
+{
+display: flex;
+justify-content:center;
+padding-left: 20px;
+}
+
+.social.media
+{
+font-size: 50px;
+display: flex;
+justify-content: space-around;
+
+.bi.bi-facebook
+{
+
+  color:blue  
+}
+
+
+.bi.bi-instagram
+{
+
+  color:rgb(132, 42, 177)  
+}
+.bi.bi-whatsapp
+{
+
+  color:rgb(12, 206, 31)  
+}
+
+}
